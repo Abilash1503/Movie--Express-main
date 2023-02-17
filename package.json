@@ -1,0 +1,20 @@
+{
+  "name": "ticketbooking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd backend && nodemon server.js\" \"cd frontend && npm start\""
+  },
+  "author": "abilash",
+  "license": "ISC",
+  "dependencies": {
+    "browserlist": "^1.0.1",
+    "caniuse-lite": "^1.0.30001452",
+    "concurrently": "^5.0.0",
+    "node-sass": "^8.0.0",
+    "pdf-to-printer": "^5.5.0",
+    "react-router-dom": "^6.8.1",
+    "sass": "^1.58.1"
+  }
+}

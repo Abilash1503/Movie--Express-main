@@ -1,0 +1,25 @@
+.show-list-container{
+    text-align: center;
+
+    h1{
+        font-size: 50px;
+    }
+
+    .show-list{
+        padding-top: 30px;
+
+        span{
+            text-decoration: none;
+            color: rgb(255, 68, 0);
+            outline: 1px solid rgb(255, 68, 0);
+            padding: 10px;
+            margin: 25px;
+            font-size: 25px;
+    
+            &:hover{
+                color: white;
+                background-color:  rgb(255, 68, 0);
+            }
+        }
+    }
+}
